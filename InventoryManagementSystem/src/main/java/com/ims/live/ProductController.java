@@ -15,7 +15,6 @@ import com.ims.util.AppConstants;
 @Controller
 public class ProductController {
 
-	//Service Class Instantiation
 	ProductService productService = new ProductService();
 
 	@RequestMapping("/")
