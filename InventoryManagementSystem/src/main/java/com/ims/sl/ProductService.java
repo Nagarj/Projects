@@ -28,7 +28,7 @@ public class ProductService {
 	 * @return Product list
 	 */
 	public List<Product> getProducts() {
-		
+		 
 		List<Product> products = new ArrayList<Product>();
 		for (ProductData productData : productLiveData.getProductDataList()) {
 			products.add(productData.getProduct());
